@@ -18,8 +18,10 @@ const HeroSection = () => {
         <p className={styles.supportingText}>
           Built for colocations, data centers, and cloud providers
         </p>
+        <a href="https://calendly.com/margarita-centralaxis/30min?month=2025-05">
 
         <button className={styles.ctaButton}>Request Demo</button>
+        </a>
       </Container>
     </section>
     </div>
