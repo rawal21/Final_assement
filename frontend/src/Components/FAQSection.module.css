@@ -1,0 +1,43 @@
+.faqSection {
+  background-color: black;
+  padding: 4rem 1rem;
+  color: #fff;
+}
+
+.faqTag {
+  display: inline-block;
+  background-color: #18181b;
+  padding: 0.25rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+  color: #71717a;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #71717a;
+  font-size: 1rem;
+}
+
+.faqItem {
+  padding-right: 1rem;
+}
+
+.question {
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.answer {
+  font-size: 0.95rem;
+  color: #71717a;
+  margin: 0;
+}

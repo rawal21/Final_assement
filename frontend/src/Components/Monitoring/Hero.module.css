@@ -1,0 +1,28 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.btn {
+  color: #71717A;
+  background-color: #18181B;
+  width: fit-content;
+  padding: 0.3rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.75rem;
+  }
+}

@@ -1,0 +1,57 @@
+.bannerWrapper {
+  background-color: #0f0f0f;
+  padding: 2rem 1rem;
+}
+
+.banner {
+  background-image: url('../images/background.png'); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.banner > * {
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #FFFFFFB2;
+  margin-bottom: 1rem;
+  max-width: 600px;
+}
+
+.ctaBtn {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.4rem;
+}
+
+.ctaBtn:hover {
+  background-color: #e2e2e2;
+}

@@ -1,0 +1,27 @@
+.backgroundWrapper {
+  overflow: hidden;
+  height: 300px;
+  position: relative;
+}
+
+.backgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 93%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.5;
+}
+
+
+.detailsSection {
+  /* background-color: #121212; */
+  position: relative;
+  z-index: 2;
+}
+
+.detailsSection ul {
+  padding-left: 1.2rem;
+}

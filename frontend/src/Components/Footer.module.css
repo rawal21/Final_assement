@@ -1,0 +1,15 @@
+.footer {
+  background-color: black;
+  border-top: 3px solid #1f1f1f;
+}
+
+.logo {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+.text {
+  color: #e4e4e7;
+  font-size: 0.95rem;
+}

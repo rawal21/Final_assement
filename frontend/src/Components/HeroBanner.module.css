@@ -1,0 +1,51 @@
+.heroBanner {
+  background-color: #100a1d;
+  border-radius: 1rem;
+  padding: 2rem 3rem;
+  color: white;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.subtitle {
+  color: #A1A1AA;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.primaryBtn {
+  background-color: #a079ff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.primaryBtn:hover {
+  background-color: #8c5eff;
+}
+
+.darkBtn {
+  background-color: #1e1e1f;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.darkBtn:hover {
+  background-color: #2a2a2b;
+}

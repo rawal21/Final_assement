@@ -1,0 +1,162 @@
+.heroSection {
+  padding: 5rem 1rem;
+  text-align: center;
+  background-color: #000;
+  /* box-shadow: 0 0 0 1px rgba(136, 92, 246, 0.4); */
+  position: relative;
+  overflow: hidden;
+}
+
+/* .title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #fafafa;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+
+.description {
+  font-size: 1.25rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+  color: #71717A;
+}
+
+.supportingText {
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+  color: #71717A;
+}
+
+.ctaButton {
+  background-color: #8055e2;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  /* border-radius: 0.5rem; */
+  cursor: pointer;
+  width: 100%;
+  max-width: 24.5rem;
+  height: 3.5rem;
+  transition: background-color 0.3s ease;
+  z-index: 1;
+  position: relative;
+}
+
+.ctaButton:hover {
+  background-color: #7337d9;
+}
+
+/* Glow background */
+.glow {
+  background-color: rgba(140, 100, 244, 0.4);
+  pointer-events: none;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  z-index: 0;
+  width: 520px;
+  aspect-ratio: 1;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  filter: blur(220px);
+}
+
+.title {
+  color: #fafafa; /* make sure this variable is defined globally */
+  text-align: center;
+  font-weight: 500;
+  max-width: 100%;
+  width: 100%;
+  line-height: 1;
+  text-wrap: balance;
+  font-size: clamp(32px, 7vw, 64px);
+  letter-spacing: -1.44px;
+  margin: 1rem auto;
+}
+
+@media (min-width: 768px) {
+  .title {
+    letter-spacing: -2.16px;
+    max-width: 1024px; /* matches max-w-screen-lg */
+  }
+}
+
+/* Optional for dark mode if you support it */
+.dark .title {
+  color: var(--dark-text-primary);
+}
+
+
+/* Tablet responsiveness */
+@media (max-width: 992px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .description,
+  .supportingText {
+    font-size: 1.1rem;
+  }
+
+  .ctaButton {
+    max-width: 18rem;
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .heroSection {
+    padding: 4rem 1rem;
+  }
+
+  .title {
+    font-size: 2.25rem;
+  }
+
+  .description,
+  .supportingText {
+    font-size: 1rem;
+  }
+
+  .ctaButton {
+    max-width: 16rem;
+    font-size: 0.95rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  .glow {
+    top: 80px;
+    width: 400px;
+    filter: blur(150px);
+  }
+}
+
+@media (max-width: 480px) {
+  .heroSection {
+    padding: 3rem 1rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .description,
+  .supportingText {
+    font-size: 0.95rem;
+  }
+
+  .ctaButton {
+    width: 100%;
+    max-width: 14rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .glow {
+    width: 300px;
+    top: 60px;
+    filter: blur(120px);
+  }
+}

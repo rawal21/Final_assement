@@ -1,0 +1,15 @@
+.videoBackgroundWrapper {
+  /* height: 350px; */
+  overflow: hidden;
+  position: relative;
+}
+
+.videoBackground {
+  position: absolute;
+  width: 95%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  z-index: 0;
+}

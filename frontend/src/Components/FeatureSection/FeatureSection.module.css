@@ -1,0 +1,75 @@
+.section {
+  background-color: black;
+  padding: 5rem 0;
+  color: #fff;
+}
+
+.textColumn {
+  padding-right: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.3rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: #71717a;
+  background-color: #18181b;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.05rem;
+  color: #71717a;
+  line-height: 1.6;
+}
+
+.featureCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: #18181b;
+  border-radius: 0.75rem;
+  padding: 1.3rem 1.5rem;
+  margin-bottom: 1rem;
+  color: #ddd;
+  border: 1px solid #262626;
+}
+
+.iconWrapper {
+  width: 3rem;
+  height: 3rem;
+  min-width: 3rem;
+  background-color: #27272a;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: #ffffff;
+  /* filter: invert(1); For dark theme invert */
+}
+
+.featureCard h5 {
+  margin-bottom: 0.3rem;
+  color: white;
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.featureCard p {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  color: #a1a1aa;
+}

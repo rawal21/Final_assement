@@ -1,0 +1,16 @@
+.backgroundWrapper {
+  overflow: hidden;
+  height: 300px;
+  position: relative;
+}
+
+.backgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 93%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.5;
+}
